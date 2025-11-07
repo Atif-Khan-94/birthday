@@ -11,18 +11,9 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `Hey Anusha!,
-
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
-
-You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
-
-Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
-
-Happy Birthday, beautiful soul! 🎂✨
-
-With all my love and warmest wishes,
-Forever Yours 💕`
+    const letterText = `Hey Zainab!,
+Is Moment pe me kuch kehna chahta hun ki tummse bt kre hue kaafi time ho gya but ye din me kabhi nhi bhoola.me na tumsee bt krna chahta hun 
+apni cheez share krna chahta hun agr aap agree ho to mujhe msg kro aur hnn happy birthday a lot.May Allah Bless You`
 
     useEffect(() => {
         if (showText) {
